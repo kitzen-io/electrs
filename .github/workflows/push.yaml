@@ -3,7 +3,7 @@ name: Test, Build and Deploy
 on:
     push:
         branches:
-            - mempool
+            - new-index
 jobs:
     build:
         name: Build and Push
